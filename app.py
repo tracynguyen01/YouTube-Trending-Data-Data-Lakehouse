@@ -54,16 +54,16 @@ most_viewed_by_country = pd.DataFrame([
 ])
 
 best_by_country_all = pd.DataFrame([
-    {"Section": "BEST_BY_COUNTRY_ALL", "Country": "BR", "Top Category in Country": "Sports", "Distinct Trending Videos": 7122, "Pct of Country": 32.51},
-    {"Section": "BEST_BY_COUNTRY_ALL", "Country": "CA", "Top Category in Country": "Gaming", "Distinct Trending Videos": 9913, "Pct of Country": 29.60},
-    {"Section": "BEST_BY_COUNTRY_ALL", "Country": "DE", "Top Category in Country": "Sports", "Distinct Trending Videos": 7567, "Pct of Country": 23.37},
-    {"Section": "BEST_BY_COUNTRY_ALL", "Country": "FR", "Top Category in Country": "Gaming", "Distinct Trending Videos": 7788, "Pct of Country": 24.28},
-    {"Section": "BEST_BY_COUNTRY_ALL", "Country": "GB", "Top Category in Country": "Sports", "Distinct Trending Videos": 9590, "Pct of Country": 30.43},
-    {"Section": "BEST_BY_COUNTRY_ALL", "Country": "IN", "Top Category in Country": "People & Blogs", "Distinct Trending Videos": 12580, "Pct of Country": 34.40},
-    {"Section": "BEST_BY_COUNTRY_ALL", "Country": "JP", "Top Category in Country": "Gaming", "Distinct Trending Videos": 4390, "Pct of Country": 25.54},
-    {"Section": "BEST_BY_COUNTRY_ALL", "Country": "KR", "Top Category in Country": "People & Blogs", "Distinct Trending Videos": 4379, "Pct of Country": 28.76},
-    {"Section": "BEST_BY_COUNTRY_ALL", "Country": "MX", "Top Category in Country": "Gaming", "Distinct Trending Videos": 4743, "Pct of Country": 27.29},
-    {"Section": "BEST_BY_COUNTRY_ALL", "Country": "US", "Top Category in Country": "Gaming", "Distinct Trending Videos": 9333, "Pct of Country": 30.84},
+    {"Country": "BR", "Top Category in Country": "Sports", "Distinct Trending Videos": 7122, "Pct of Country": 32.51},
+    {"Country": "CA", "Top Category in Country": "Gaming", "Distinct Trending Videos": 9913, "Pct of Country": 29.60},
+    {"Country": "DE", "Top Category in Country": "Sports", "Distinct Trending Videos": 7567, "Pct of Country": 23.37},
+    {"Country": "FR", "Top Category in Country": "Gaming", "Distinct Trending Videos": 7788, "Pct of Country": 24.28},
+    {"Country": "GB", "Top Category in Country": "Sports", "Distinct Trending Videos": 9590, "Pct of Country": 30.43},
+    {"Country": "IN", "Top Category in Country": "People & Blogs", "Distinct Trending Videos": 12580, "Pct of Country": 34.40},
+    {"Country": "JP", "Top Category in Country": "Gaming", "Distinct Trending Videos": 4390, "Pct of Country": 25.54},
+    {"Country": "KR", "Top Category in Country": "People & Blogs", "Distinct Trending Videos": 4379, "Pct of Country": 28.76},
+    {"Country": "MX", "Top Category in Country": "Gaming", "Distinct Trending Videos": 4743, "Pct of Country": 27.29},
+    {"Country": "US", "Top Category in Country": "Gaming", "Distinct Trending Videos": 9333, "Pct of Country": 30.84},
 ])
 
 strategy_df = pd.DataFrame([
@@ -338,13 +338,13 @@ with p1:
     st.markdown('<div class="panel">', unsafe_allow_html=True)
     st.markdown('<div class="panel-title">Pipeline Overview</div>', unsafe_allow_html=True)
     st.markdown("""
-    **Azure Blob Storage**  
+    Azure Blob Storage  
     ↓  
-    **Snowflake External Tables**  
+    Snowflake External Tables  
     ↓  
-    **Cleaning & Transformation**  
+    Cleaning & Transformation  
     ↓  
-    **Final Analytical Table**
+    Final Analytical Table
     """)
     st.markdown('</div>', unsafe_allow_html=True)
 
@@ -358,9 +358,3 @@ with p2:
     - Final clean dataset: **2,597,494 rows**
     """)
     st.markdown('</div>', unsafe_allow_html=True)
-
-st.markdown("""
-<div class="footer-box">
-This dashboard demonstrates data engineering, SQL analytics, cloud pipeline design, and business insight generation.
-</div>
-""", unsafe_allow_html=True)
