@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="YouTube Trending Data Lakehouse", page_icon="📊", layout="wide")
+st.set_page_config(page_title="YouTube Trending Video Analysis", page_icon="📊", layout="wide")
 
 # -----------------------------
 # Data
@@ -179,7 +179,7 @@ st.markdown("""
 # -----------------------------
 st.markdown("""
 <div class="hero">
-    <h1>YouTube Trending Data Lakehouse</h1>
+    <h1>YouTube Trending Video Analysis</h1>
     <p>End-to-end data pipeline for ingesting, cleaning, and analyzing <b>2.8M+</b> YouTube trending records using Snowflake and Azure Blob Storage.</p>
     <div class="tag-row">
         <div class="tag">Snowflake</div>
