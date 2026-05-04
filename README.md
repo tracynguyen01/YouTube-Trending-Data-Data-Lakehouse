@@ -13,7 +13,7 @@ It demonstrates how raw data can be transformed into **actionable insights** thr
 * ❄️ Snowflake (Data Warehouse)
 * ☁️ Azure Blob Storage (Data Lake)
 * 🧮 SQL (Data Cleaning & Analytics)
-* 🐍 Python (Streamlit Dashboard)
+* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="25"/> Python (Streamlit Dashboard)
 * 📊 Streamlit (Interactive Dashboard)
 
 ---
