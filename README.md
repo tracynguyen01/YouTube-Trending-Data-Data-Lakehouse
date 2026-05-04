@@ -37,7 +37,7 @@ Azure Blob Storage
 </details>
 
 ---
-## 🖥️ Interactive Dashboard
+## 🖥️ Live Demo
 
 🔗 https://tracynguyen01-youtube-trending-video-analysis-app-ig1khc.streamlit.app/
 
